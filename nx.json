@@ -6,11 +6,17 @@
     },
     "lint": {
       "cache": true
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
     }
   },
   "defaultBase": "main",
   "release": {
     "projects": ["packages/*"],
+    "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true
     },

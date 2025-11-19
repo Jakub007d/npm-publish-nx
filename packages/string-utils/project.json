@@ -13,6 +13,11 @@
         "tsConfig": "packages/string-utils/tsconfig.json",
         "assets": ["packages/string-utils/*.md"]
       }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/@jakub007d/string-utils"
+      }
     }
   },
   "tags": []

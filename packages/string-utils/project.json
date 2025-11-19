@@ -16,7 +16,8 @@
     },
     "nx-release-publish": {
       "options": {
-        "packageRoot": "dist/@jakub007d/string-utils"
+        "packageRoot": "dist/@jakub007d/string-utils",
+        "args": ["--provenance", "--access", "public"]
       }
     }
   },

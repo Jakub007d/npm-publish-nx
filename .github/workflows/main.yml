@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      id-token: write 
+      id-token: write
     name: Release
     steps:
       - name: Checkout code
@@ -76,3 +76,4 @@ jobs:
           npx nx release --first-release -y
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: "true"

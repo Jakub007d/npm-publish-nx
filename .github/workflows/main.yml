@@ -79,7 +79,7 @@ jobs:
 
       - name: 🚀 Run Nx Release (Publish)
         run: |
-          npx nx release publish --verbose
+          npx nx release publish --verbose --first-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: "true"

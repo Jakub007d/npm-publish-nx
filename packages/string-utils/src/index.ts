@@ -34,3 +34,18 @@ export function isPalindrome(str: string): boolean {
   const cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');
   return cleaned === cleaned.split('').reverse().join('');
 }
+
+/**
+ * Truncates a string to a specified length
+ */
+export function truncate(str: string, maxLength: number): string {
+  if (str.length <= maxLength) return str;
+  return str.slice(0, maxLength) + '...';
+}
+
+/**
+ * Counts the number of words in a string
+ */
+export function wordCount(str: string): number {
+  return str.trim().split(/\s+/).filter(word => word.length > 0).length;
+}

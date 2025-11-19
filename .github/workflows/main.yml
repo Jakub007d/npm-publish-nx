@@ -70,7 +70,7 @@ jobs:
 
       - name: 🚀 Run Nx Release (Version)
         run: |
-          npx nx release version -y
+          npx nx release version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -79,7 +79,7 @@ jobs:
 
       - name: 🚀 Run Nx Release (Publish)
         run: |
-          npx nx release publish -y
+          npx nx release publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: "true"

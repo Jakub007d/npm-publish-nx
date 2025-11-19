@@ -18,18 +18,21 @@
     "projects": ["packages/*"],
     "projectsRelationship": "independent",
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "git": {
+        "commit": true,
+        "tag": true,
+        "commitMessage": "chore(release): publish {version} [skip ci]"
+      }
     },
     "changelog": {
       "projectChangelogs": true,
       "workspaceChangelog": {
         "createRelease": "github"
+      },
+      "git": {
+        "commit": false
       }
-    },
-    "git": {
-      "commit": true,
-      "tag": true,
-      "commitMessage": "chore(release): publish {version}"
     }
   }
 }

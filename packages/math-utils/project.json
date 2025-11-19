@@ -1,0 +1,19 @@
+{
+  "name": "math-utils",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/math-utils/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/@jakub007d/math-utils",
+        "main": "packages/math-utils/src/index.ts",
+        "tsConfig": "packages/math-utils/tsconfig.json",
+        "assets": ["packages/math-utils/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

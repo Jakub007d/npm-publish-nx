@@ -1,0 +1,21 @@
+{
+  "name": "npm-publish-nx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "nx run-many --target=build --all",
+    "build:math-utils": "nx build math-utils",
+    "build:string-utils": "nx build string-utils"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nx/js": "^22.0.4",
+    "@nx/workspace": "^22.0.4",
+    "@swc/core": "^1.15.2",
+    "nx": "^22.0.4",
+    "typescript": "^5.9.3"
+  }
+}

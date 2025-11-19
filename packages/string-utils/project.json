@@ -1,0 +1,19 @@
+{
+  "name": "string-utils",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/string-utils/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/@jakub007d/string-utils",
+        "main": "packages/string-utils/src/index.ts",
+        "tsConfig": "packages/string-utils/tsconfig.json",
+        "assets": ["packages/string-utils/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

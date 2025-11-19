@@ -68,6 +68,6 @@ jobs:
 
       - name: 🚀 Run Nx Release
         run: |
-          npx nx release --first-release
+          npx nx release --first-release -y
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

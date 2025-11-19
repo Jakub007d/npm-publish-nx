@@ -16,7 +16,8 @@
     },
     "nx-release-publish": {
       "options": {
-        "packageRoot": "dist/@jakub007d/math-utils"
+        "packageRoot": "dist/@jakub007d/math-utils",
+        "args": ["--provenance", "--access", "public"]
       }
     }
   },

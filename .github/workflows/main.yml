@@ -63,17 +63,23 @@ jobs:
         with:
           main-branch-name: 'main'
 
-      - name: Build affected packages
-        run: npx nx affected --target=build --parallel=3
-
       - name: Configure Git
         run: |
           git config --global user.email "jakub007d@users.noreply.github.com"
           git config --global user.name "jakub007d"
 
-      - name: 🚀 Run Nx Release
+      - name: 🚀 Run Nx Release (Version)
         run: |
-          npx nx release --first-release -y
+          npx nx release version --first-release -y
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build affected packages
+        run: npx nx affected --target=build --parallel=3
+
+      - name: 🚀 Run Nx Release (Publish)
+        run: |
+          npx nx release publish -y
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: "true"

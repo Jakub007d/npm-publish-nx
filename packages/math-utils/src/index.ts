@@ -13,6 +13,13 @@ export function subtract(a: number, b: number): number {
 }
 
 /**
+ * Returns 0
+ */
+export function zero(): number {
+  return 0;
+}
+
+/**
  * Multiplies two numbers
  */
 export function multiply(a: number, b: number): number {

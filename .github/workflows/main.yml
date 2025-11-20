@@ -74,6 +74,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Push changes
+        run: |
+          git push --atomic origin HEAD:main --follow-tags
+
       - name: Build affected packages
         run: npx nx affected --target=build --parallel=3
 
@@ -82,3 +86,4 @@ jobs:
           npx nx release publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: "true"

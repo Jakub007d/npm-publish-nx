@@ -1,3 +1,13 @@
+## 0.3.0 (2025-11-20)
+
+### 🚀 Features
+
+- adding 1 ([64b8a00](https://github.com/Jakub007d/npm-publish-nx/commit/64b8a00))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.2.0 (2025-11-19)
 
 ### 🚀 Features

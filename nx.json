@@ -21,10 +21,10 @@
     "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true,
-      "fallbackCurrentVersionResolver": "disk"
-    },
-    "git": {
-      "commitMessage": "chore(release): publish [skip ci]"
+      "fallbackCurrentVersionResolver": "disk",
+      "git": {
+        "commitMessage": "chore(release): publish [skip ci]"
+      }
     }
   }
 }

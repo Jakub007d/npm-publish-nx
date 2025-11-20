@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Nx release dry-run (PR only)
         if: github.event_name == 'pull_request'
-        run: npx nx release --dry-run --verbose
+        run: npx nx release version --dry-run --verbose
 
   # Job that runs ONLY after merge (on push to master)
   release:

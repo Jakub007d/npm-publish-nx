@@ -9,22 +9,23 @@
     }
   },
   "defaultBase": "main",
-    "release": {
-    "projects": [
-      "packages/*"
-    ],
+  "release": {
+    "projects": ["packages/*"],
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
+    },
     "changelog": {
       "projectChangelogs": {
         "createRelease": "github"
       }
     },
-    "projectsRelationship": "independent",
-    "version": {
-      "conventionalCommits": true,
-      "fallbackCurrentVersionResolver": "disk",
-      "git": {
-        "commitMessage": "chore(release): publish [skip ci]"
-      }
-    }
+    "git": {
+      "commit": true,
+      "tag": true,
+      "commitMessage": "chore(release): publish {version} [skip ci]"
+    },
+    "releaseTagPattern": "{projectName}@{version}"
   }
 }

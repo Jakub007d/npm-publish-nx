@@ -52,3 +52,10 @@ export function sqrt(n: number): number {
   }
   return Math.sqrt(n);
 }
+
+/**
+ * Calculates the absolute value of a number
+ */
+export function abs(n: number): number {
+  return Math.abs(n);
+}

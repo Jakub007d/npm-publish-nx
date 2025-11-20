@@ -49,3 +49,10 @@ export function truncate(str: string, maxLength: number): string {
 export function wordCount(str: string): number {
   return str.trim().split(/\s+/).filter(word => word.length > 0).length;
 }
+
+/**
+ * Checks if a string is empty or whitespace only
+ */
+export function isEmpty(str: string): boolean {
+  return str.trim().length === 0;
+}

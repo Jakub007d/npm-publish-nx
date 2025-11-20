@@ -20,6 +20,13 @@ export function zero(): number {
 }
 
 /**
+ * Returns 1
+ */
+export function one(): number {
+  return 1;
+}
+
+/**
  * Multiplies two numbers
  */
 export function multiply(a: number, b: number): number {

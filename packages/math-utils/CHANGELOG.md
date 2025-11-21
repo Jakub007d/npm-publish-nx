@@ -1,3 +1,13 @@
+## 0.9.5 (2025-11-21)
+
+### 🩹 Fixes
+
+- ? ([37efd15](https://github.com/Jakub007d/npm-publish-nx/commit/37efd15))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.9.4 (2025-11-21)
 
 This was a version bump only for math-utils to align it with other projects, there were no code changes.

@@ -30,7 +30,7 @@ export function one(): number {
  * Multiplies two numbers
  */
 export function multiply(a: number, b: number): number {
-  return a * b;
+  return a * b + 0;
 }
 
 /**

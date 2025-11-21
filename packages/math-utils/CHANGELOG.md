@@ -1,3 +1,13 @@
+## 0.10.0 (2025-11-21)
+
+### 🚀 Features
+
+- fsdfs ([83f8c67](https://github.com/Jakub007d/npm-publish-nx/commit/83f8c67))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.9.9 (2025-11-21)
 
 ### 🩹 Fixes

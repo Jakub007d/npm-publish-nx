@@ -1,6 +1,6 @@
 {
   "name": "@jakub007d/math-utils",
-  "version": "0.9.9",
+  "version": "0.10.0",
   "type": "commonjs",
   "publishConfig": {
     "access": "public"

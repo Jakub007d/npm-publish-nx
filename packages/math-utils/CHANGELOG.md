@@ -1,3 +1,13 @@
+## 0.7.0 (2025-11-21)
+
+### 🚀 Features
+
+- reee ([81ce24a](https://github.com/Jakub007d/npm-publish-nx/commit/81ce24a))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.6.0 (2025-11-21)
 
 ### 🚀 Features

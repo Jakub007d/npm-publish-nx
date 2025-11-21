@@ -9,9 +9,9 @@
     },
     "nx-release-publish": {
       "dependsOn": ["build"],
-      "executor": "@nx/js:release-publish",
+      "executor": "nx:run-commands",
       "options": {
-        "packageManager": "npm"
+        "command": "npm publish --provenance --access public"
       }
     }
   },

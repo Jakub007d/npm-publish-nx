@@ -1,3 +1,13 @@
+## 0.6.0 (2025-11-21)
+
+### 🚀 Features
+
+- shenenighans ([0c8a716](https://github.com/Jakub007d/npm-publish-nx/commit/0c8a716))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.5.0 (2025-11-21)
 
 ### 🚀 Features

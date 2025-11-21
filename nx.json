@@ -6,6 +6,15 @@
     },
     "lint": {
       "cache": true
+    },
+    "nx-release-publish": {
+      "dependsOn": ["build"],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm publish --provenance --access public",
+        "cwd": "dist/{projectRoot}",
+        "parallel": false
+      }
     }
   },
   "defaultBase": "main",

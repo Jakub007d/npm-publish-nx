@@ -1,3 +1,7 @@
+## 0.9.2 (2025-11-21)
+
+This was a version bump only for math-utils to align it with other projects, there were no code changes.
+
 ## 0.9.1 (2025-11-21)
 
 ### 🩹 Fixes

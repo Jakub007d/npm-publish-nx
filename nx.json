@@ -10,7 +10,9 @@
     "nx-release-publish": {
       "dependsOn": ["build"],
       "executor": "@nx/js:release-publish",
-      "options": {}
+      "options": {
+        "packageManager": "npm"
+      }
     }
   },
   "defaultBase": "main",

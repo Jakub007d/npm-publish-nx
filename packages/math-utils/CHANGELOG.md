@@ -1,3 +1,13 @@
+## 0.9.9 (2025-11-21)
+
+### 🩹 Fixes
+
+- rfwef ([8c96d5a](https://github.com/Jakub007d/npm-publish-nx/commit/8c96d5a))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.9.8 (2025-11-21)
 
 This was a version bump only for math-utils to align it with other projects, there were no code changes.

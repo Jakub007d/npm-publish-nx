@@ -1,6 +1,6 @@
 {
   "name": "@jakub007d/string-utils",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "type": "commonjs",
   "publishConfig": {
     "access": "public"

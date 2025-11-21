@@ -1,3 +1,13 @@
+## 0.8.0 (2025-11-21)
+
+### 🚀 Features
+
+- guzg ([83fde6a](https://github.com/Jakub007d/npm-publish-nx/commit/83fde6a))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.7.0 (2025-11-21)
 
 ### 🚀 Features

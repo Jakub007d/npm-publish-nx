@@ -23,7 +23,7 @@ export function zero(): number {
  * Returns 1
  */
 export function one(): number {
-  return 1;
+  return 1+0;
 }
 
 /**

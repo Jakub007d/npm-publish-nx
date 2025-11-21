@@ -1,3 +1,13 @@
+## 0.4.0 (2025-11-21)
+
+### 🚀 Features
+
+- plus 0 ([c6a499d](https://github.com/Jakub007d/npm-publish-nx/commit/c6a499d))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.3.0 (2025-11-20)
 
 ### 🚀 Features

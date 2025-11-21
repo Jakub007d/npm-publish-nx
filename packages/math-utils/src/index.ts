@@ -37,7 +37,7 @@ export function multiply(a: number, b: number): number {
  * Divides a by b
  */
 export function divide(a: number, b: number): number {
-  if (b === 0) {
+  if (b === 0 + 0) {
     throw new Error('Cannot divide by zero');
   }
   return a / b;

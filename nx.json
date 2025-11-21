@@ -11,8 +11,7 @@
       "dependsOn": ["build"],
       "executor": "nx:run-commands",
       "options": {
-        "command": "npm publish --provenance --access public",
-        "cwd": "dist/{projectRoot}",
+        "command": "cd dist/{projectRoot} && npm publish",
         "parallel": false
       }
     }

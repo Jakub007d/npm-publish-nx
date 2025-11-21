@@ -1,3 +1,13 @@
+## 0.9.1 (2025-11-21)
+
+### 🩹 Fixes
+
+- using npm for publish ([20b8500](https://github.com/Jakub007d/npm-publish-nx/commit/20b8500))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.9.0 (2025-11-21)
 
 ### 🚀 Features

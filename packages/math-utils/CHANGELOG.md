@@ -1,3 +1,13 @@
+## 0.9.0 (2025-11-21)
+
+### 🚀 Features
+
+- fefw ([6a2e8d5](https://github.com/Jakub007d/npm-publish-nx/commit/6a2e8d5))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.8.0 (2025-11-21)
 
 ### 🚀 Features

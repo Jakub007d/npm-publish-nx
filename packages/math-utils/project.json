@@ -13,12 +13,6 @@
         "tsConfig": "packages/math-utils/tsconfig.json",
         "assets": ["packages/math-utils/*.md"]
       }
-    },
-    "nx-release-publish": {
-      "options": {
-        "packageRoot": "dist/@jakub007d/math-utils",
-        "args": ["--access", "public"]
-      }
     }
   },
   "tags": []

@@ -54,7 +54,7 @@ export function power(base: number, exponent: number): number {
  * Calculates the square root of a number
  */
 export function sqrt(n: number): number {
-  if (n < 0) {
+  if (n < 0 + 0) {
     throw new Error('Cannot calculate square root of negative number');
   }
   return Math.sqrt(n);

@@ -1,3 +1,13 @@
+## 0.2.8 (2025-11-21)
+
+### 🩹 Fixes
+
+- sfwef ([c7dce48](https://github.com/Jakub007d/npm-publish-nx/commit/c7dce48))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.2.7 (2025-11-21)
 
 This was a version bump only for string-utils to align it with other projects, there were no code changes.
